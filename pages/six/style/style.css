@@ -1,0 +1,151 @@
+body {
+	margin: 0px;
+	padding:0px;
+}
+
+p {
+	margin: 0px;
+	padding:0px;
+	color: blue;
+	float: left;
+}
+
+a {
+	text-decoration: none;
+}
+
+span {
+	float: left;
+	color: black;
+}
+
+img {
+	float: left;
+}
+
+.clear {
+	clear: both;
+}
+
+.row:after {
+  visibility: hidden;
+  display: block;
+  font-size: 0;
+  content: " ";
+  clear: both;
+  height: 0;
+}
+.row { display: inline-block; }
+/* start commented backslash hack \*/
+* html .row { height: 1%; }
+.row { display: block; }
+/* close commented backslash hack */
+
+
+
+
+
+
+
+.pillar {
+	width: 1000px;
+	background: white;
+	text-align: center;	
+	margin: auto;
+	min-height: 600px;
+
+}
+
+
+.buttons {
+	width: 75%;
+	background: white;
+	margin: auto;
+/*	border: 1px solid black;*/
+}
+
+button {
+	float: right;
+}
+
+.btn {
+	float: none;
+}
+
+
+.name {
+	width: 60%;
+	background: white;
+	text-align: center;	
+	margin: auto;
+	font-family: 'Signika', sans-serif;
+}
+
+.definitions {
+	margin: 20px;
+	font-size: 20px;
+	float: left;
+	font-family: 'Signika', sans-serif;
+	color: blue;
+}
+
+
+
+.task {
+	margin: 20px;
+	font-size: 20px;
+	float: left;
+	font-family: 'Signika', sans-serif;
+	color: blue;
+	display: block;
+}
+
+.task img {
+	float: left;
+
+}
+
+.picture {
+	height: 600px;
+	width: 400px;
+	float: right;
+}
+
+.task1 {
+	margin: 20px;
+	font-size: 20px;
+	float: left;
+	font-family: 'Signika', sans-serif;
+	color: blue;
+	display: block;
+}
+
+.task1 img {
+	float: left;
+}
+
+
+
+.formula {
+	float: left;
+}
+
+.inputnum {
+	width: 8px;
+}
+
+
+.formula2 {
+	float: left;
+	margin-left: 20px;s
+}
+
+.task2 {
+	float: left;
+}
+
+
+
+.red {
+	color: red;
+}

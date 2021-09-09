@@ -1,0 +1,184 @@
+
+body {
+
+}
+img{
+	background-color: none;
+}
+
+button a {
+	color: black;
+}
+
+p {
+	margin: 0px;
+	padding:0px;
+	color: blue;
+}
+
+a {
+	text-decoration: none;
+}
+
+span {
+	color: black;
+}
+
+input {
+
+}
+/* h1 {
+	font-size: 20px;
+  position: absolute;
+
+  text-align: center;
+  text-transform: uppercase;
+} */
+
+.name {
+	background-image: url(../../style/img/desk.jpg);
+
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+
+
+.hide {
+  opacity:0; /*Элемент полностью прозрачный (невидимый)*/
+	transition: 1s; /*Скорость перехода состояния элемента*/
+	animation: show 3s 1; /* Указываем название анимации, её время и количество повторов*/
+  animation-fill-mode: forwards; /* Чтобы элемент оставался в конечном состоянии анимации */
+  animation-delay: 1s; /* Задержка перед началом */
+}
+
+@keyframes show{
+ 0%{ opacity:0; }
+ 100% { opacity:1; }
+}
+
+.error {
+	border: 2px solid red;
+	border-radius: 5px;
+	background-color: gray;
+}
+
+
+
+.row:after {
+  visibility: hidden;
+  display: block;
+  font-size: 0;
+  content: " ";
+  clear: both;
+  height: 0;
+}
+.row { display: inline-block; }
+/* start commented backslash hack \*/
+* html .row { height: 1%; }
+.row { display: block; }
+/* close commented backslash hack */
+
+
+
+
+
+
+
+.pillar {
+	width: 900px;
+	background: white;
+	text-align: center;
+	margin: auto;
+	min-height: 600px;
+	background-image: url(img/stik.png);
+	border: 1px solid white;
+	border-radius: 10px;
+}
+
+
+.buttons {
+	width: 75%;
+	background: white;
+	margin: auto;
+
+}
+
+button {
+	float: right;
+}
+
+
+.name {
+	width: 60%;
+	background: white;
+	text-align: center;
+	margin: auto;
+	font-family: 'Signika', sans-serif;
+}
+
+.definition {
+	margin: 20px;
+	font-size: 20px;
+	float: left;
+	font-family: 'Signika', sans-serif;
+	color: blue;
+}
+
+
+
+.example {
+	margin: 20px;
+	font-size: 20px;
+	font-family: 'Signika', sans-serif;
+	color: blue;
+}
+
+
+
+
+.example img {
+	float: left;
+}
+
+.example p {
+	float: left;
+}
+
+.task {
+	margin: 20px;
+	font-size: 20px;
+	font-family: 'Signika', sans-serif;
+	color: blue;
+}
+
+
+
+
+.task img {
+	float: left;
+}
+
+.task p {
+	float: left;
+}
+
+.xxx {
+	float: left;
+}
+
+.clear {
+	clear: both;
+}
+
+/*form .forma1  {
+	position: relative;
+	top: 50px;
+	right: 50px;
+}
+form .forma2 {
+	position: relative;
+	top: 50px;
+	right: 50px;
+}
+*/

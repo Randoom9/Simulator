@@ -1,0 +1,100 @@
+body {
+	margin: 0px;
+	padding:0px;
+}
+
+p {
+	margin: 0px;
+	padding:0px;
+	color: blue;
+	float: left;
+}
+
+a {
+	text-decoration: none;
+}
+
+span {
+	float: left;
+	color: black;
+}
+
+img {
+	float: left;
+}
+
+
+
+.row:after {
+  visibility: hidden;
+  display: block;
+  font-size: 0;
+  content: " ";
+  clear: both;
+  height: 0;
+}
+.row { display: inline-block; }
+/* start commented backslash hack \*/
+* html .row { height: 1%; }
+.row { display: block; }
+/* close commented backslash hack */
+
+
+
+
+
+
+
+.pillar {
+	width: 900px;
+	background: white;
+	text-align: center;	
+	margin: auto;
+
+	min-height: 600px;
+}
+
+
+.buttons {
+	width: 75%;
+	background: white;
+	margin: auto;
+/*	border: 1px solid black;*/
+}
+
+button {
+	float: right;
+}
+
+
+.name {
+	width: 60%;
+	background: white;
+	text-align: center;	
+	margin: auto;
+	font-family: 'Signika', sans-serif;
+}
+
+.check {
+	margin: 20px;
+	font-size: 20px;
+	float: left;
+	font-family: 'Signika', sans-serif;
+	color: blue;
+}
+
+
+
+.example {
+	margin: 20px;
+	font-size: 20px;
+	float: left;
+	font-family: 'Signika', sans-serif;
+	color: blue;
+}
+
+
+
+
+
+
